@@ -50,7 +50,6 @@ public class LoginTest extends BaseTest{
 	@Test
 	public void ValidLogin2()
 	{
-		System.out.println("Hello");
 		log=extent.createTest("ValidLogin2");
 		LoginPage lp=new LoginPage(driver,log);
 		lp.LogoDisplay();
